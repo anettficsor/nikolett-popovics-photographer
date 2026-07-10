@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapcsolat | Popovics Nikolett Fotó</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="./assets/images/camera.png">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">Nikolett Popovics Photographer</a>
+      <button class="menu-toggle" type="button" aria-label="Menü megnyitása">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="portfolio.html">Portfólió</a></li>
+        <li><a href="rolam.html">Rólam</a></li>
+        <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><a class="active" href="kapcsolat.html">Kapcsolat</a></li>
+        <li><a href="impresszum.html">Impresszum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="contact-layout">
+      <div>
+        <p class="eyebrow">Írj bátran</p>
+        <h1>Kapcsolat</h1>
+        <p>
+          Mesélj pár mondatban arról, milyen fotózást szeretnél. Hamarosan
+          válaszolok a részletekkel és a szabad időpontokkal.
+        </p>
+        <div class="contact-info">
+          <p><strong>E-mail:</strong> popovicsnikolett5@gmail.com</p>
+          <p><strong>Telefon:</strong> +36 30 624 70 42</p>
+          <p><strong>Helyszín:</strong> Budapest és környéke</p>
+        </div>
+      </div>
+
+      <form
+            class="contact-form"
+            action="https://formsubmit.co/popovicsnikolett5@gmail.com"
+            method="POST">
+
+
+              <input
+              type="hidden"
+                  name="_subject"
+                  value="Új fotózási érdeklődés a weboldalról"
+                              >
+
+                    <input type="hidden" name="_template" value="table">
+
+                      <label for="name">Név</label>
+                  <input
+                      id="name"
+                      name="Név"
+                      type="text"
+                      placeholder="Teljes neved"
+                      required
+                      >
+
+              <label for="email">E-mail cím</label>
+                      <input
+                        id="email"
+                          name="E-mail"
+                            type="email"
+                          placeholder="email@pelda.hu"
+                            required
+                              >
+
+                            <label for="service">Érdeklődés típusa</label>
+                              <select id="service" name="Fotózás típusa" required>
+                                <option value="">Válassz egy lehetőséget</option>
+                                <option value="Portré fotózás">Portré fotózás</option>
+                                <option value="Páros fotózás">Páros fotózás</option>
+                                <option value="Jegyes fotózás">Jegyes fotózás</option>
+                                <option value="Kismama/csecsemő fotózás">Kismama/csecsemő fotózás</option>
+                                <option value="Kiskedvenc">Kiskedvenc fotózás</option>
+                                <option value="Családi fotózás">Családi fotózás</option>
+                                <option value="Esküvői fotózás">Esküvői  fotózás</option>
+                                <option value="Egyéb fotózás">Egyéb fotózás</option>
+                                </select>
+
+                                      <label for="message">Üzenet</label>
+                                      <textarea
+                                          id="message"
+                                          name="Üzenet"
+                                          rows="5"
+                                          placeholder="Milyen hangulatú fotózást szeretnél?"
+                                        required
+                                      ></textarea>
+
+                  <button class="button primary" type="submit">
+                          Üzenet küldése
+                      </button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+          <p>&copy; 2026 Popovics Nikolett Fotógráfus</p>
+          </footer>
+                                                  <div class="cookie-banner" id="cookieBanner">
+  <div class="cookie-content">
+    <div>
+      <h2>Süti-beállítások</h2>
+
+      <p>
+        Ez a weboldal a megfelelő működéshez szükséges sütiket használ.
+        <a href="impresszum.html"> Adatvédelmi tájékoztató</a>
+      </p>
+    </div>
+
+    <div class="cookie-buttons">
+      <button
+        class="cookie-button reject"
+        id="cookieReject"
+        type="button"
+      >
+        Elutasítom
+      </button>
+
+      <button
+        class="cookie-button accept"
+        id="cookieAccept"
+        type="button"
+      >
+        Elfogadom
+      </button>
+      </div>
+            </div>
+              </div>
+      <script src="./script.js"></script>
+</body>
+</html>
