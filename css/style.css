@@ -318,7 +318,7 @@ textarea {
   .portfolio-grid,
   .about-layout,
   .contact-layout {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
   }
 
   .wide-cta {
@@ -354,6 +354,11 @@ textarea {
   display: block;
   border-radius: 18px;
   box-shadow: var(--shadow);
+}
+
+.portfolio-item img {
+    height: auto;
+    object-fit: contain;
 }
 
 
