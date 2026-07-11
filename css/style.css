@@ -318,7 +318,7 @@ textarea {
   .portfolio-grid,
   .about-layout,
   .contact-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 
   .wide-cta {
